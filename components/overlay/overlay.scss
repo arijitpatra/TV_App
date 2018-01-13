@@ -1,7 +1,9 @@
 .overlay {
-	height: 1080px;
-	width: 1920px;
-	background: rgba(0,0,0,0.5);
-	position: absolute;
-	bottom: 0;
+	height: 335px;
+    width: 2000px;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    filter: blur(15px);
 }
