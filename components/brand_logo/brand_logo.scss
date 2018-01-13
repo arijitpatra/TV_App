@@ -1,0 +1,11 @@
+@import '../App';
+
+.brand_logo {
+	position: absolute;
+    bottom: 60px;
+    left: 45px;
+
+    &--width {
+    	width: 250px;
+    }
+}
