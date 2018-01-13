@@ -1,5 +1,11 @@
 $primary-font: 'Open Sans', sans-serif;
 
+html {
+	zoom: 50%;
+	padding-top: 100px;
+	padding-left: 375px;
+}
+
 body {
 	font-family: $primary-font;
 }

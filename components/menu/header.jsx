@@ -1,7 +1,7 @@
 import React from 'react';
-import './header.scss';
+import './menu.scss';
 
-class Header extends React.Component {
+class Menu extends React.Component {
 	render(){
 		return(
 			<div className="header">
@@ -10,4 +10,4 @@ class Header extends React.Component {
 		);
 	}
 }
-export default Header;
+export default Menu;
