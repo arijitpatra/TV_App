@@ -1,0 +1,53 @@
+@import '../App';
+
+.menu {
+	position: absolute;
+    bottom: 75px;
+    left: 400px;
+    width: 1475px;
+
+    &__ul {
+        list-style-type: none;
+        white-space: nowrap;
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        line-height: 35px;
+        width: 1360px;
+
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    &__arrow {
+    	color: #888888;
+    	font-size: 35px;
+
+    	&--left {
+    		position: absolute;
+    		left: 0;
+            top: 5px;
+    	}
+
+    	&--right {
+    		position: absolute;
+    		right: 0;
+            top: 5px;
+    	}
+
+    }
+
+    &__items {
+        margin: 0px 50px 0px 50px;
+        color: #bababa;
+        font-size: 32px;
+
+        &--highlighted {
+            color: #00bfff;
+            font-weight: 800;
+            font-size: 36px;
+        }
+    }
+}

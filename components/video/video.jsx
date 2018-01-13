@@ -2,6 +2,8 @@ import React from 'react';
 import './video.scss';
 import BrandLogo from '../brand_logo/brand_logo.jsx';
 import Overlay from '../overlay/overlay.jsx';
+import DateTime from '../date_time/date_time.jsx';
+import Menu from '../Menu/menu.jsx';
 
 class Video extends React.Component {
 	render(){
@@ -11,6 +13,8 @@ class Video extends React.Component {
 				</video>
 				<Overlay/>
 				<BrandLogo/>
+				<DateTime/>
+				<Menu/>
 			</div>
 		);
 	}
